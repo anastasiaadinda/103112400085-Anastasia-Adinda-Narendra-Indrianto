@@ -15,7 +15,7 @@ Kekurangan C++: sintaks cukup kompleks sehingga dapat membingungkan pemula, sert
 ### B. Code::Blocks IDE<br/>
 Code::Blocks adalah sebuah IDE (Integrated Development Environment) yang bersifat gratis dan open-source, digunakan untuk menulis, mengompilasi, dan menjalankan program. Menurut Andy Prasetyo, ST., M.Kom, Code::Blocks merupakan perangkat lunak yang dibuat oleh komunitas Linux/IGS untuk memudahkan proses pengembangan aplikasi [2]. Hubungannya dengan C++ adalah Code::Blocks berfungsi sebagai alat bantu utama dalam pembuatan program berbasis C++, karena menyediakan compiler, editor, dan debugger dalam satu paket. Dengan IDE ini, pengembang dapat menulis kode C++ secara lebih terstruktur, efisien, dan minim kesalahan.
 #### 1. Efektivitas Penggunaan
-Berdasarkan penelitian oleh Ariapuri & Prasetyo, penggunaan Code::Blocks berbasis C++ pada sistem kasir terbukti lebih efektif, efisien, dan minim kesalahan dibandingkan perhitungan manual, karena perhitungan dilakukan otomatis melalui program [1].
+Berdasarkan penelitian oleh Ariapuri & Prasetyo, penggunaan Code Blocks berbasis C++ pada sistem kasir terbukti lebih efektif, efisien, dan minim kesalahan dibandingkan perhitungan manual, karena perhitungan dilakukan otomatis melalui program [1].
 
 ## Guided 
 
