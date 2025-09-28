@@ -230,6 +230,8 @@ Program ini meminta dua bilangan bertipe float dari user, lalu menghitung hasil 
 
 ### 2. Soal Unguided 2
 
+Program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di- input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
+
 ```C++
 #include <iostream>
 using namespace std;
@@ -300,6 +302,8 @@ Program ini meminta input bilangan bulat 0–100 dari pengguna, lalu mengubahnya
 
 
 ### 3. Soal Unguided 3
+
+Program yang menerima input sebuah bilangan bulat n, lalu mencetak pola segitiga terbalik dengan angka dan tanda * 
 
 ```C++
 #include <iostream>
