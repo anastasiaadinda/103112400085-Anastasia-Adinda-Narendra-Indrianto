@@ -7,7 +7,7 @@
 Array adalah suatu struktur data yang terdiri dari sejumlah elemen yang memiliki tipe data yang sama, di mana elemen-elemen tersebut tersusun secara sekuensial dalam memori komputer. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal, dengan karakteristik utama yaitu bersifat homogen , statis, dan dapat diakses secara acak(A. S. Putra)[1]. Fungsi array adalah untuk menyimpan dan mengelola kumpulan data dengan tipe yang sama secara terstruktur dan efisien, sehingga memudahkan programmer dalam melakukan operasi pemrosesan data dan menjadikan program secara keseluruhan lebih sederhana(O. M. Febriani dan A. S. Putra).
 
 #### Jenis-jenis Array
-Array adalah sebuah tipe data bentukan atau terstruktur yang terdiri dari sejumlah komponen dengan tipe yang sama. Array dapat dikategorikan berdasarkan dimensinya menjadi beberapa jenis(Uce Indahyanti, M.Kom)[2]:
+Array adalah sebuah tipe data bentukan atau terstruktur yang terdiri dari sejumlah komponen dengan tipe yang sama. Array dapat dikategorikan berdasarkan dimensinya menjadi beberapa jenis[2](Uce Indahyanti, M.Kom):
 1. Array Berdimensi Satu (One-Dimensional Array)
 Array berdimensi satu mewakili bentuk suatu vektor, yaitu kumpulan elemen-elemen identik yang tersusun dalam satu baris. Elemen-elemen di dalamnya boleh berbeda nilai meskipun tipe datanya sama.
 2. Array Berdimensi Dua (Two-Dimensional Array)
@@ -19,30 +19,30 @@ Array juga dapat menyimpan sejumlah elemen bertipe terstruktur (rekaman/record).
 Secara keseluruhan, array berfungsi sebagai struktur data yang memungkinkan penyimpanan sementara untuk data-data bertipe sama di dalam memori, yang selanjutnya dapat dimanipulasi atau diproses lebih lanjut dalam program[2].
 
 ### B. Pengertian dan Fungsi Pointer<br/>
-Pointer adalah suatu variabel penunjuk yang berisi alamat pada suatu lokasi memori tertentu. Pointer tidak berisi nilai dari sebuah variabel yang telah dideklarasikan, melainkan berisi suatu alamat memori(M. Taufik Dwi Putra, dkk., M.Kom (Dosen Tekkom UPI))[3]. Fungsi Pointer:
+Pointer adalah suatu variabel penunjuk yang berisi alamat pada suatu lokasi memori tertentu. Pointer tidak berisi nilai dari sebuah variabel yang telah dideklarasikan, melainkan berisi suatu alamat memori[3](M. Taufik Dwi Putra, dkk., M.Kom (Dosen Tekkom UPI)). Fungsi Pointer:
 1. Mengakses alamat memori - Dengan menggunakan pointer, dimungkinkan untuk mendapatkan atau mengubah isi dari memori yang ditunjuk.
 2. Meningkatkan performa - Penggunaan pointer akan meningkatkan performa secara signifikan dikarenakan tidak ada proses pengalokasian alamat memori baru.
 3. Efisiensi memori - Meskipun penggunaannya lebih sulit dibandingkan tanpa menggunakan pointer, pointer lebih efisien karena tidak membuat alokasi memori baru.
 
 #### Hubungan Array dengan Alamat Memori
-Pointer menyimpan alamat memori dari variabel lain, sehingga pointer tidak menyimpan nilai data secara langsung, tetapi menyimpan lokasi (alamat) dimana data tersebut berada di dalam memori komputer. Hubungan pointer dengan alamat(D. M Janah (Fakultas Komputer))[4]:
+Pointer menyimpan alamat memori dari variabel lain, sehingga pointer tidak menyimpan nilai data secara langsung, tetapi menyimpan lokasi (alamat) dimana data tersebut berada di dalam memori komputer[4]. Hubungan pointer dengan alamat(D. M Janah (Fakultas Komputer)):
 1. Pointer bukan berisi data - Variabel pointer sebenarnya bukan berisi data, melainkan berisi alamat dari suatu data.
 2. Pointer menunjuk lokasi data - Secara singkat pointer artinya menunjuk ke suatu lokasi data di memori.
 3. Pengaksesan tidak langsung - Satu-satunya cara untuk mengakses variabel dinamis adalah dengan menggunakan pointer, karena pada saat kita mengakses record kita tidak tahu dimana record tersebut secara eksak diletakkan di dalam memori.
 4. Sistem mengatur lokasi - Dengan menggunakan pointer kita membiarkan sistem komputer mengatur letak record tersebut ketika diperlukan.
 
 ### C. Pengertian Prosedur dan Function C++<br/>
-Fungsi merupakan blok program yang melakukan suatu aksi tertentu berdasarkan input yang diterima dan mengembalikan sebuah nilai ketika deklarasinya dipanggil dalam sebuah program. Fungsi dapat dipanggil atau digunakan di dalam blok kode yang sama maupun di blok kode program utama (U. Indahyanti, M.Kom., dkk. (2020).):[5]
+Fungsi merupakan blok program yang melakukan suatu aksi tertentu berdasarkan input yang diterima dan mengembalikan sebuah nilai ketika deklarasinya dipanggil dalam sebuah program. Fungsi dapat dipanggil atau digunakan di dalam blok kode yang sama maupun di blok kode program utama[5](U. Indahyanti, M.Kom., dkk. (2020).):
 Karakteristik Fungsi:
-a. Wajib mengembalikan nilai keluaran menggunakan perintah return
-b. Nilai yang dikembalikan harus memiliki tipe data yang sama dengan tipe data fungsi itu sendiri
-c. Proses pencetakan hasil dilakukan di program utama saat pemanggilan fungsi
+1. Wajib mengembalikan nilai keluaran menggunakan perintah return
+2. Nilai yang dikembalikan harus memiliki tipe data yang sama dengan tipe data fungsi itu sendiri
+3. Proses pencetakan hasil dilakukan di program utama saat pemanggilan fungsi
 
 Prosedur adalah blok program yang bisa mengembalikan atau tidak mengembalikan nilai hasil, berbeda dengan fungsi yang wajib mengembalikan nilai. Prosedur dalam C++ menggunakan kata kunci void sebagai tipe kembalian.
 Karakteristik Prosedur(U. Indahyanti, M.Kom., dkk. (2020).):[5]
-a. Tidak wajib mengembalikan nilai (menggunakan keyword void)
-b. Proses pencetakan hasil berada dalam blok subrutinnya sendiri
-c. Dipanggil namanya di dalam program utama
+1. Tidak wajib mengembalikan nilai (menggunakan keyword void)
+2. Proses pencetakan hasil berada dalam blok subrutinnya sendiri
+3. Dipanggil namanya di dalam program utama
 
 
 ## Guided 
