@@ -214,7 +214,7 @@ Program ini dibuat untuk menerapkan konsep Abstract Data Type (ADT) pada entitas
 Dalam file pelajaran.h, didefinisikan struktur pelajaran yang memiliki dua atribut, yaitu namaMapel dan kodeMapel.
 Fungsi create_pelajaran() digunakan untuk membuat objek pelajaran baru berdasarkan nama dan kode yang diberikan, sedangkan tampil_pelajaran() berfungsi untuk menampilkan data pelajaran ke layar. Pada file main.cpp, program menguji implementasi ADT tersebut dengan membuat data pelajaran bernama “Struktur Data” dan kode “STD”, kemudian menampilkan hasilnya ke layar.
 
-#### Unguided (pelajaran.h)
+#### Unguided 2 (pelajaran.h)
 
 ```C++
 #ifndef PELAJARAN_H
@@ -235,7 +235,7 @@ void tampil_pelajaran(pelajaran pel);
 #endif
 ```
 
-#### Unguided (pelajaran.cpp)
+#### Unguided 2 (pelajaran.cpp)
 
 ```C++
 #include <iostream>
@@ -257,7 +257,7 @@ void tampil_pelajaran(pelajaran pel) {
 
 ```
 
-#### Unguided (main.cpp)
+#### Unguided 2 (main.cpp)
 
 ```C++
 #include <iostream>
@@ -359,7 +359,7 @@ int main() {
     return 0;
 }
 ```
-### Output Unguided 1 :
+### Output Unguided 3 :
 
 ##### Output 1
 ![Screenshot Output Unguided 3_1](https://github.com/anastasiaadinda/103112400085-Anastasia-Adinda-Narendra-Indrianto/blob/main/Pertemuan3_Modul3/Output/Output_Unguided3-1_Modul3.png)
