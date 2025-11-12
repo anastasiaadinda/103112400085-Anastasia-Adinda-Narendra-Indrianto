@@ -516,7 +516,7 @@ Program ini mengimplementasikan dan menguji ADT Stack berbasis array. Di dalamny
 ##### Output 1
 ![Screenshot Output Unguided 1](https://github.com/anastasiaadinda/103112400085-Anastasia-Adinda-Narendra-Indrianto/blob/main/Pertemuan7_Modul7/Output/Output-Unguided1-Modul7.png)
 
-### 2. Unguided-2
+### 2. unguided2
 
 Tambahkan prosedur pushAscending( in/out S : Stack, in x : integer)
 
@@ -658,7 +658,7 @@ Program di atas merupakan implementasi utama untuk menguji fungsi ADT Stack. Pro
 ![Screenshot Output Unguided 2](https://github.com/anastasiaadinda/103112400085-Anastasia-Adinda-Narendra-Indrianto/blob/main/Pertemuan7_Modul7/Output/Output-Unguided2-Modul7.png)
 
 
-### 3. Unguided-3
+### 3. unguided3
 
 Tambahkan prosedur getInputStream( in/out S : Stack ). Prosedur akan terus membaca dan
 menerima input user dan memasukkan setiap input ke dalam stack hingga user menekan
